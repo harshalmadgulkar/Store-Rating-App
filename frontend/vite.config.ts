@@ -1,20 +1,18 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 import tailwindcss from '@tailwindcss/vite';
 
-//@ts-ignore
-import path, {resolve} from 'path';
+import path, { resolve } from 'path';
 
-//@ts-ignore
 const root = resolve(__dirname, 'src');
-
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     port: 5173,
-    host: '0.0.0.0'
+    host: '0.0.0.0',
+    allowedHosts: ['ratingstore-1.onrender.com']
   },
   resolve: {
     alias: {
@@ -26,5 +24,5 @@ export default defineConfig({
       '@utils': path.resolve(root, 'utils'),
       '@hooks': path.resolve(root, 'hooks'),
     }
-    }
-  });
+  }
+});
