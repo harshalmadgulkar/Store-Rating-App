@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router";
 
 import DashLayout from "@app/DashLayout";
 import Dashboard from "@/features/dashboard/index";
-import Login from "@features/auth";
+import Login from "@/features/auth";
 import ErrorBoundry from "./ErrorBoundry";
 import RouteProtector from "./RouteProtector";
 import Signup from "@/features/auth/Signup";
