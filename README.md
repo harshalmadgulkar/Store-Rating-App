@@ -19,7 +19,7 @@ Built as a solution for the **FullStack Intern Coding Challenge**.
 | Normal User | user@gmail.com | Roxiller@123 |
 | Store Owner | store@gmail.com | Roxiller@123 |
 
-> **==Note==**==: Render free tier apps sleep after inactivity. First load may take **10–40 seconds** to wake up.==
+ ==Note: Render free tier apps sleep after inactivity. First load may take 10–40 seconds to wake up.==
 
 ## Screenshots
 
