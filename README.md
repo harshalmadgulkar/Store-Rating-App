@@ -6,7 +6,7 @@ Built as a solution for the **FullStack Intern Coding Challenge**.
 
 ## 🚀 Live Demo
 
-* **Frontend** (React + TypeScript): <https://ratingstore-1.onrender.com>
+* **Frontend** (React + TypeScript): <https://store-rating-app-frontend-v1vu.onrender.com/>
 * **Backend API** (test with Postman): <https://ratingstore.onrender.com/api>
 
 **Quick test credentials** (created for reviewers):
