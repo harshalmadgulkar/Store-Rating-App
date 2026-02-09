@@ -9,8 +9,6 @@ Built as a solution for the **FullStack Intern Coding Challenge**.
 * **Frontend** (React + TypeScript): <https://ratingstore-1.onrender.com>
 * **Backend API** (test with Postman): <https://ratingstore.onrender.com/api>
 
-  \
-
 **Quick test credentials** (created for reviewers):
 
 | Role | Email | Password |
