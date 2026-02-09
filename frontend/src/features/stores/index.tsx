@@ -166,6 +166,7 @@ const Stores = () => {
 			});
 			toast.success('Rating submitted for selected store.');
 			closeRatingModal();
+			setRatingValue(0);
 			fetchData();
 		} catch (error) {
 			console.error('Error:', error);
